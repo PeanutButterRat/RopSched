@@ -2,7 +2,7 @@
 
 **RopSched** is an instruction-scheduling approach to limit the number of code reuse gadgets in programs compiled with LLVM. 
 
-This work was completed as part of a research project for the graduate program in computer science at **California State University, Sacramento** under the guidance of **Dr. Ghassan Shobaki** and **Dr. Syed Badruddoja**.
+This work was completed as part of a research project for the graduate program in computer science at **California State University, Sacramento** under the guidance of **Dr. Ghassan Shobaki** and **Dr. Syed Badruddoja**. You can find the full paper [here](https://csu-csus.primo.exlibrisgroup.com/permalink/01CALS_USL/1435n3q/alma99258345145901671).
 
 ## Background
 Binary exploitation is traditionally achieved by overflowing some portion of memory (usually on the stack) and overwriting a return address. By doing so, an attacker can redirect program execution to a payload (usually in the same buffer) to achieve arbitrary code execution. To help prevent simple exploits like this, platform vendors developed defense mechanisms such as **Data Execution Prevention (DEP)** on Windows and **No eXecute (NX)** on Linux.
